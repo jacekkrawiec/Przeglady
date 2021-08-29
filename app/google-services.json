@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "529523275908",
+    "firebase_url": "https://new-rzi.firebaseio.com",
+    "project_id": "new-rzi",
+    "storage_bucket": "new-rzi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:529523275908:android:24216cd0cae8ee70",
+        "android_client_info": {
+          "package_name": "com.example.przeglady"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "529523275908-662mtbmgk7tdnf6abfq8ojrlljqp1lp2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.przeglady",
+            "certificate_hash": "2a3b2b491e60989e043f3154edb38950ba0771f1"
+          }
+        },
+        {
+          "client_id": "529523275908-vnum7e3omai07v73vm6lrrsmgd3aai1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcSqW2tUSJ1Mx2VG8Wcfk54zK9oN29Elg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "529523275908-vnum7e3omai07v73vm6lrrsmgd3aai1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

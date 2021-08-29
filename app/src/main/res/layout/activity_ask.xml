@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".askActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/parent_id"
+                  android:orientation="vertical"
+                  tools:layout_editor_absoluteY="25dp" tools:layout_editor_absoluteX="0dp">
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/alert"
+                  app:layout_constraintStart_toStartOf="parent" android:gravity="center" android:textSize="20sp"
+                  android:textColor="#000" android:layout_margin="15dp" android:text="@string/alert"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ilosc"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintHorizontal_bias="0.0"
+                  app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                  android:layout_marginRight="8dp" app:layout_constraintTop_toBottomOf="@+id/editText"
+                  android:id="@+id/textViewIlosc" android:gravity="center" android:textSize="20sp"
+                  android:layout_marginTop="25dp" android:background="#FFFFFF"/>
+
+        <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Wpisz ilość tutaj"
+                android:inputType="number"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                android:layout_marginTop="25dp" app:layout_constraintTop_toTopOf="@+id/parent_id"
+                android:background="#FFFFFF" android:layout_marginLeft="15dp"/>
+
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:text="@string/pilnosc"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintHorizontal_bias="0.0"
+                  app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                  android:layout_marginRight="8dp" app:layout_constraintTop_toBottomOf="@+id/editText"
+                  android:id="@+id/textViewPilnosc" android:gravity="center" android:textSize="20sp"
+                  android:background="#FFFFFF" android:layout_marginTop="25dp"/>
+
+
+        <RadioGroup
+                android:id="@+id/radio_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:padding="15dp"
+                app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0" android:layout_marginTop="25dp"
+                app:layout_constraintTop_toBottomOf="@+id/textViewPilnosc">
+
+            <RadioButton
+                    android:id="@+id/A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1 rok"/>
+
+            <RadioButton
+                    android:id="@+id/B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2 lata"/>
+
+            <RadioButton
+                    android:id="@+id/C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4 lata"/>
+        </RadioGroup>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Przeglady</string>
+    <string name="settings_button">This is settings button</string>
+    <string name="choose_kompleks">Wybierz kompleks</string>
+    <string name="choose_obiekt">Wybierz obiekt</string>
+    <string name="menu_obiektu">Menu obiektu</string>
+    <string name="zuzycie">Określ poziom zużycia</string>
+    <string name="konstrukcja">Wybierz rodzaj konstrukcji</string>
+    <string name="zero">0</string>
+    <string name="usterki">Wybierz usterki</string>
+    <string name="dalej">Dalej</string>
+    <string name="pilnosc">Określ pilność naprawy</string>
+    <string name="ilosc">Wpisz ilosc (m2, m-ce, inne) zaznaczonej usterki</string>
+    <string name="alert">Wybrałeś: %1$s</string>
+    <string name="wybrano">Wybrany element: %1$s</string>
+</resources>
